@@ -14,7 +14,7 @@ Copy the code → run → understand the finance behind it.
 
 ### Shortcuts
 - [System & Core Objects](reference/context.md)
-- [Factor Library](factors/overview.md)
+- [Factor Library](factors/revenue.md)  
 - [Indicators (MACD / EMV / UOS)](indicators/overview.md)
 - [Strategy Case: White-Horse Rotation](strategies/white-horse-rotation.md)
 - [Troubleshooting](troubleshooting/errors.md)
