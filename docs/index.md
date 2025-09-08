@@ -16,5 +16,5 @@ Copy the code → run → understand the finance behind it.
 - [System & Core Objects](reference/context.md)
 - [Factor Library]({{ '/factors/revenue/' | relative_url }}) 
 - [Indicators (MACD / EMV / UOS)](indicators/overview.md)
-- [Strategy Case: White-Horse Rotation](strategies/white-horse-rotation.md)
+- [Strategy Case: White-Horse Rotation]({{ '/strategies/white-horse-rotation/' | relative_url }})
 - [Troubleshooting](troubleshooting/errors.md)
