@@ -18,3 +18,9 @@ Copy the code → run → understand the finance behind it.
 - [Indicators (MACD / EMV / UOS)]({{ '/indicators/overview/' | relative_url }})
 - [Strategy Case: White-Horse Rotation]({{ '/strategies/white-horse-rotation/' | relative_url }})
 - [Troubleshooting]({{ '/troubleshooting/errors/' | relative_url }})
+
+---
+
+## Author / Contact
+Created by **Ke Xu**.  
+📇 [Full Contact Page](https://xke1.github.io/contact-hub/)
