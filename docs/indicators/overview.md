@@ -26,10 +26,10 @@ Quick links: [MACD](#macd) • [EMV](#emv) • [UOS](#uos)
 **Cons**: Lags; choppy in ranges.
 
 ### Code (JoinQuant-style; pandas-based)
+
 ```python
-# Get OHLCV and compute MACD
 def calc_macd(close, fast=12, slow=26, signal=9):
-    # EMAs (no de-meaning; standard implementation)
+    """Compute MACD line, signal line, and histogram."""
     ema_fast = close.ewm(span=fast, adjust=False).mean()
     ema_slow = close.ewm(span=slow, adjust=False).mean()
     macd = ema_fast - ema_slow
@@ -37,7 +37,7 @@ def calc_macd(close, fast=12, slow=26, signal=9):
     hist = macd - signal_line
     return macd, signal_line, hist
 
-# Example inside JoinQuant
+
 def run_example_macd(security='000001.XSHE'):
     df = get_price(security, start_date='2018-01-01', end_date='2019-12-31',
                    frequency='daily', fields=['close'])
