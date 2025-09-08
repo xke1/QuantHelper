@@ -1,0 +1,7 @@
+title: QuantHelper
+description: JoinQuant templates + financial intuition for beginners.
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+color_scheme: light
+search_enabled: true
