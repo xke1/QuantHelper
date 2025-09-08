@@ -1,6 +1,7 @@
 ---
 title: Factor Library — All Factors
 nav_order: 20
+permalink: /factors/revenue/
 ---
 
 # Factor Library
