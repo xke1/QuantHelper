@@ -17,4 +17,4 @@ Copy the code → run → understand the finance behind it.
 - [Factor Library]({{ '/factors/revenue/' | relative_url }}) 
 - [Indicators (MACD / EMV / UOS)]({{ '/indicators/overview/' | relative_url }})
 - [Strategy Case: White-Horse Rotation]({{ '/strategies/white-horse-rotation/' | relative_url }})
-- [Troubleshooting](troubleshooting/errors.md)
+- [Troubleshooting]({{ '/troubleshooting/errors/' | relative_url }})
